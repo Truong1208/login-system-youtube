@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.nav {
+    height: 75px;
+    background: #fff;
+    position: relative;
+    top: 0;
+}
+
+.index {
+    background: #999;
+}
+
+.sign-up {
+    font-family: Arial;
+    right: 30px;
+    position: absolute;
+    line-height: 20px;
+    top: 6px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    background: #d37171;
+    padding: 3px;
+}
+
+.form-signin {
+    position: absolute;
+    right: 100px;
+    top: 6px;
+}
+input[type=text] {
+    border: none;
+    background: #ebebeb;
+    height: 25px;
+    padding: 10px;
+}
+input[type=password] {
+    border: none;
+    background: #ebebeb;
+    height: 25px;
+    padding: 10px;
+
+}
+input[type=email] {
+    border: none;
+    background: #ebebeb;
+    height: 25px;
+    padding: 10px;
+
+}
+button[type=submit] {
+    background: #ebebeb;
+    border: none;
+    height: 25px;
+}
+.content {
+    width: 422px;
+    margin: 0 auto;
+    background: #fff;
+    height: 218px;
+}
+.content-form {
+    text-align: center;
+padding: 30px;
+}
+.content form input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.content form button {
+    background: #ff6472;
+    color: #fff;
+    padding: 5px;
+
+}
